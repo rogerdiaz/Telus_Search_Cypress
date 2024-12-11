@@ -77,16 +77,16 @@ Now, let's install Cypress with the following command.
 $ npm install cypress --save-dev
 ```
 
-In order to use Cucumber, we have to install the following:
+In order to use Cucumber, we have to install the following things based on this link: https://github.com/badeball/cypress-cucumber-preprocessor
 
 ```console
 $ npm install @badeball/cypress-cucumber-preprocessor
 ```
 
-Just in case, verify that you have "@cypress/browserfy-preprocessor": "latest" in your **package.json** file. If not, please add it.
+Just in case, verify that you have "@cypress/browserify-preprocessor": "latest" in your **package.json** file. If not, please add it.
 
 <p align="center"><img alt="Welcome to Cypress" src="photos/package_json.png" width="500"></p>
-Then, run the following command since "@cypress/browserfy-preprocessor" couldn't be installed although you already installed Cucumber.
+Then, run the following command since "@cypress/browserify-preprocessor" couldn't be installed although you already installed Cucumber.
 
 ```console
 $ npm install
