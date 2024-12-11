@@ -77,6 +77,21 @@ Now, let's install Cypress with the following command.
 $ npm install cypress --save-dev
 ```
 
+In order to use Cucumber, we have to install the following:
+
+```console
+$ npm install @badeball/cypress-cucumber-preprocessor
+```
+
+Just in case, verify that you have "@cypress/browserfy-preprocessor": "latest" in your **package.json** file. If not, please add it.
+
+<p align="center"><img alt="Welcome to Cypress" src="photos/package_json.png" width="500"></p>
+Then, run the following command since "@cypress/browserfy-preprocessor" couldn't be installed although you already installed Cucumber.
+
+```console
+$ npm install
+```
+
 So now, let's the action begin!
 Run this command to open the Cypress Test Runner
 
