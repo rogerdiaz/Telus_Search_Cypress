@@ -8,6 +8,8 @@ This test cases are repeated in English and French for all the Canadian Regions 
 
 [![Watch the video](https://img.youtube.com/vi/vpNckWHa7aI/0.jpg)](https://www.youtube.com/watch?v=vpNckWHa7aI)
 
+[![Watch the video](https://img.youtube.com/vi/vpNckWHa7aI/0.jpg)](photos/test_case_execution.mov)
+
 ### Search Experience tests
 
 There are 2 kinds of tests cases that are performed for both Personal and Small & Medium Business line of business in English and French.
