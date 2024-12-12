@@ -119,6 +119,39 @@ At the left side you will see the list of test cases and the status of each one.
 
 <p align="center"><img alt="Automation running" src="photos/Test_executions.png" width="500"></p>
 
+## Automation testing Report
+
+In order to give information to stakeholders, testing reports might be necessary so this are the steps to generate them.
+
+First I want to clarify that we are not going to use the Test Runner in this case, we are going to run the test suite from the terminal instead.
+
+So let's start by installing our reporter tool.
+
+```console
+$ npm install multiple-cucumber-html-reporter --save-dev
+```
+
+Now in the terminal run the following command
+
+```console
+$ npx cypress run --spec cypress/integration/BDD/*.feature
+```
+
+Now run the **cucumber-html-reports.js** file with this command:
+
+```console
+$ node cucumber-html-reports.js
+```
+
+And now, let's get the path of our **index.html** file which contains the Cucumber Report.
+
+<p align="center"><img alt="Automation running" src="photos/index.png" width="500"></p>
+
+Paste it in your browser as a URL and after pressing ENTER, you will see a beautiful Report like this:
+
+<p align="center"><img alt="Automation running" src="photos/report1.png" width="500"></p>
+<p align="center"><img alt="Automation running" src="photos/report2.png" width="500"></p>
+
 ## Programming structure used
 
 So if you want to know more about the structure of the project and the technologies used in this project, I can tell you here...

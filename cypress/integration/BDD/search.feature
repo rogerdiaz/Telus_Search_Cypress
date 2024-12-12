@@ -1,4 +1,4 @@
-Feature: End to end Error pages validation
+Feature: End to end Query results validation and footer links
     application Regression
 
     Consumer Search Test
@@ -17,10 +17,10 @@ Feature: End to end Error pages validation
         Examples:
             | region                      |
 #            | "Alberta"                   |
-#            | "British Columbia"          |
+            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -46,7 +46,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -72,8 +72,8 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
-#            | "Northwest Territories"     |
+#            | "Newfoundland and Labrador" |
+            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
 #            | "Ontario"                   |
@@ -97,7 +97,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -122,7 +122,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -148,7 +148,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -177,7 +177,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -202,7 +202,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -227,7 +227,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -256,7 +256,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -281,7 +281,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -307,7 +307,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -334,7 +334,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -360,7 +360,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -387,7 +387,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -413,7 +413,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -467,7 +467,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -495,7 +495,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -522,7 +522,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -549,7 +549,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -576,7 +576,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -608,7 +608,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -643,7 +643,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |
@@ -674,7 +674,7 @@ Feature: End to end Error pages validation
 #            | "British Columbia"          |
 #            | "Manitoba"                  |
 #            | "New Brunswick"             |
-            | "Newfoundland and Labrador" |
+#            | "Newfoundland and Labrador" |
 #            | "Northwest Territories"     |
 #            | "Nova Scotia"               |
 #            | "Nunavut"                   |
@@ -711,7 +711,7 @@ Feature: End to end Error pages validation
 #            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
 #            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
 #            | "Nouvelle-Écosse"           | "Nova Scotia"               |
-            | "Nunavut"                   | "Nunavut"                   |
+#            | "Nunavut"                   | "Nunavut"                   |
 #            | "Ontario"                   | "Ontario"                   |
 #            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
 #            | "Québec"                    | "Quebec"                    |

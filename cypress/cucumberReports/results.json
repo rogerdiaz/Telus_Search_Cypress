@@ -1,0 +1,221 @@
+[
+  {
+    "description": "    application Regression\n\n    Consumer Search Test",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-query-results-validation-and-footer-links;scenario-outline-name:-consumer-search-complaint-english",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Scenario Outline name: Consumer Search complaint English",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I open Telus",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2822000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I set the region to \"British Columbia\" 'EN' \"British Columbia\"",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I search for 'complaint' with placeholder 'Search TELUS.com'",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "You should always see the 'How to get additional help with your concern'",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ignore-this",
+            "line": 6
+          },
+          {
+            "name": "@Regression",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-query-results-validation-and-footer-links;scenario-outline-name:-consumer-search-crtc-english",
+        "keyword": "Scenario Outline",
+        "line": 76,
+        "name": "Scenario Outline name: Consumer Search CRTC English",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "I open Telus",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "I set the region to \"Northwest Territories\" 'EN' \"Northwest Territories\"",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "I search for 'CRTC' with placeholder 'Search TELUS.com'",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "You should always see the 'How to get additional help with your concern'",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-query-results-validation-and-footer-links;scenario-outline-name:-b2b-search-ombudsman-english",
+        "keyword": "Scenario Outline",
+        "line": 442,
+        "name": "Scenario Outline name: B2B Search ombudsman English",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 430,
+            "name": "I open SMB",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 431,
+            "name": "I set the region to \"Newfoundland and Labrador\" 'EN' \"Newfoundland and Labrador\"",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 434,
+            "name": "I search for 'ombudsman' with placeholder 'Search TELUS business'",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3861000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 435,
+            "name": "You should always see the 'How to escalate your existing concern'",
+            "match": {
+              "location": "cypress/integration/BDD/search/searchStepDef.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 426
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "end-to-end-query-results-validation-and-footer-links",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "End to end Query results validation and footer links",
+    "tags": [],
+    "uri": "cypress/integration/BDD/search.feature"
+  }
+]
