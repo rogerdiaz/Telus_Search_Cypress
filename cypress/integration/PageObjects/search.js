@@ -4,7 +4,7 @@ class search {
   }
 
   getRegionToggler() {
-    return cy.get('[data-test="regionToggler"]');
+    return cy.get('li button[data-test="regionToggler"]');
   }
 
   getCurrentRegion() {
@@ -46,7 +46,7 @@ class search {
   }
 
   getSearchResult(value) {
-    return cy.get("ul li a h2").should(($lis) => {
+    return cy.get("ul li a p").should(($lis) => {
       expect($lis).to.contain(value);
     });
   }

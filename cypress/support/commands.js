@@ -28,7 +28,7 @@ import search from "../integration/PageObjects/search";
 const superNav = new search();
 
 Cypress.Commands.add("regionSelector", (region, language, confirmationFr) => {
-  superNav.getRegionToggler().click();
+  //superNav.getRegionToggler().click({ force: true });
   superNav
     .getCurrentRegion()
     .invoke("attr", "aria-label")
@@ -36,6 +36,7 @@ Cypress.Commands.add("regionSelector", (region, language, confirmationFr) => {
       let togglerRegion = value;
       let re = "";
       cy.log(language);
+      cy.log(togglerRegion);
       if (language == "EN") {
         re = "\n              Your current region is set to,\n              ";
       } else if (language == "FR") {
@@ -45,12 +46,21 @@ Cypress.Commands.add("regionSelector", (region, language, confirmationFr) => {
       re = "\n            ";
       togglerRegion = togglerRegion.replace(re, "");
       if (togglerRegion != region) {
-        superNav.getRegionSelector().contains(region).click({ force: true });
+        cy.wait(4000);
+        superNav.getRegionToggler().wait(4000).click({ force: true });
+        cy.wait(1000);
+        superNav
+          .getRegionSelector()
+          .contains(region)
+          .wait(1000)
+          .trigger("click");
+        cy.wait(4000);
         superNav
           .getCurrentRegion()
           .invoke("attr", "aria-label")
           .then(function (value) {
             let togglerRegion = value;
+            cy.log(togglerRegion);
             let re = "";
             if (language == "EN") {
               re =
@@ -58,6 +68,7 @@ Cypress.Commands.add("regionSelector", (region, language, confirmationFr) => {
             } else if (language == "FR") {
               re = "\n              Votre région est réglée à,\n              ";
             }
+
             togglerRegion = togglerRegion.replace(re, "");
             re = "\n            ";
             togglerRegion = togglerRegion.replace(re, "");
@@ -66,6 +77,8 @@ Cypress.Commands.add("regionSelector", (region, language, confirmationFr) => {
             if (language == "EN") {
               expect(togglerRegion.includes(region)).to.be.true;
             } else if (language == "FR") {
+              cy.log("region" + togglerRegion);
+              cy.log("region" + confirmationFr);
               expect(togglerRegion.includes(confirmationFr)).to.be.true;
             }
           });

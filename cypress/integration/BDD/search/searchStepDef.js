@@ -9,7 +9,7 @@ Given("I open Telus", () => {
 
 Given("I open Telus FR", () => {
   cy.visit(Cypress.env("urlF"));
-  cy.reload();
+
   pSearch.getTopLinks().should("contain", "Particuliers");
 });
 
@@ -27,7 +27,7 @@ Given("I open B2BFR", () => {
 When(
   "I set the region to {string} {string} {string}",
   (region, language, confirmationFr) => {
-    cy.regionSelector(region, language, confirmationFr);
+    cy.wait(4000).regionSelector(region, language, confirmationFr);
   }
 );
 
