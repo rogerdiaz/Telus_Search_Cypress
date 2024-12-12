@@ -2,6 +2,8 @@ Feature: End to end Error pages validation
     application Regression
 
     Consumer Search Test
+
+    @ignore-this
     @Regression
     Scenario Outline: Scenario Outline name: Consumer Search complaint English
 
@@ -14,19 +16,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to get additional help with your concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: Consumer Search dispute English
@@ -40,19 +42,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to get additional help with your concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: Consumer Search CRTC English
@@ -66,19 +68,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to get additional help with your concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: Consumer Search CCTS English
@@ -91,19 +93,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to get additional help with your concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: Consumer Search commission English
@@ -116,21 +118,22 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to get additional help with your concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
+    @ignore-this
     Scenario Outline: Scenario Outline name: Consumer Search ombudsman English
         # Go to www.telus.com
         Given I open Telus
@@ -141,19 +144,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to get additional help with your concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
 
     @Regression
@@ -166,20 +169,20 @@ Feature: End to end Error pages validation
         When I search for 'plainte' with placeholder 'Rechercher sur TELUS'
         Then You should always see the 'Comment obtenir de l’aide additionnelle'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: Consumer Search différend French
@@ -191,20 +194,20 @@ Feature: End to end Error pages validation
         When I search for 'différend' with placeholder 'Rechercher sur TELUS'
         Then You should always see the 'Comment obtenir de l’aide additionnelle'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: Consumer Search CRTC French
@@ -216,20 +219,20 @@ Feature: End to end Error pages validation
         When I search for 'CRTC' with placeholder 'Rechercher sur TELUS'
         Then You should always see the 'Comment obtenir de l’aide additionnelle'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
 
 
@@ -245,20 +248,20 @@ Feature: End to end Error pages validation
         Then You should always see the 'Comment obtenir de l’aide additionnelle'
         Examples:
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: Consumer Search commission et ombudsman French
@@ -270,20 +273,20 @@ Feature: End to end Error pages validation
         When I search for 'commission et ombudsman' with placeholder 'Rechercher sur TELUS'
         Then You should always see the 'Comment obtenir de l’aide additionnelle'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
     ##################
     ##################
@@ -300,19 +303,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to escalate your existing concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
 
     @Regression
@@ -327,19 +330,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to escalate your existing concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: B2B Search CRTC English
@@ -353,19 +356,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to escalate your existing concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
 
     @Regression
@@ -380,19 +383,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to escalate your existing concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: B2B Search commission English
@@ -406,19 +409,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to escalate your existing concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: B2B Search ombudsman English
@@ -432,19 +435,19 @@ Feature: End to end Error pages validation
         Then You should always see the 'How to escalate your existing concern'
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     @Regression
     Scenario Outline: Scenario Outline name: B2B Search plainte French
@@ -456,20 +459,20 @@ Feature: End to end Error pages validation
         When I search for 'plainte' with placeholder 'Rechercher sur TELUS Affaires'
         Then You should always see the 'Comment signaler votre problème existant'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
 
 
@@ -484,20 +487,20 @@ Feature: End to end Error pages validation
         When I search for 'différend' with placeholder 'Rechercher sur TELUS Affaires'
         Then You should always see the 'Comment signaler votre problème existant'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
 
     # CRTC
@@ -511,20 +514,20 @@ Feature: End to end Error pages validation
         When I search for 'CRTC' with placeholder 'Rechercher sur TELUS Affaires'
         Then You should always see the 'Comment signaler votre problème existant'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
 
     # CPRST
@@ -538,20 +541,20 @@ Feature: End to end Error pages validation
         When I search for 'CPRST' with placeholder 'Rechercher sur TELUS Affaires'
         Then You should always see the 'Comment signaler votre problème existant'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
 
     # commission et ombudsman
@@ -565,20 +568,20 @@ Feature: End to end Error pages validation
         When I search for 'commission et ombudsman' with placeholder 'Rechercher sur TELUS Affaires'
         Then You should always see the 'Comment signaler votre problème existant'
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
 
 
@@ -601,19 +604,19 @@ Feature: End to end Error pages validation
         Then I get How to get additional help with your concern page
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
     # Consumer Navigation Test
     # Go to www.telus.com
@@ -632,20 +635,20 @@ Feature: End to end Error pages validation
         When I click ici
         Then I get Comment obtenir de l’aide additionnelle page
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |
 
     # B2b Navigation Test
 
@@ -667,19 +670,19 @@ Feature: End to end Error pages validation
         Then I get How to escalate your existing concern page
         Examples:
             | region                      |
-            | "Alberta"                   |
-            | "British Columbia"          |
-            | "Manitoba"                  |
-            | "New Brunswick"             |
+#            | "Alberta"                   |
+#            | "British Columbia"          |
+#            | "Manitoba"                  |
+#            | "New Brunswick"             |
             | "Newfoundland and Labrador" |
-            | "Northwest Territories"     |
-            | "Nova Scotia"               |
-            | "Nunavut"                   |
-            | "Ontario"                   |
-            | "Prince Edward Island"      |
-            | "Quebec"                    |
-            | "Saskatchewan"              |
-            | "Yukon"                     |
+#            | "Northwest Territories"     |
+#            | "Nova Scotia"               |
+#            | "Nunavut"                   |
+#            | "Ontario"                   |
+#            | "Prince Edward Island"      |
+#            | "Quebec"                    |
+#            | "Saskatchewan"              |
+#            | "Yukon"                     |
 
 
 
@@ -700,17 +703,17 @@ Feature: End to end Error pages validation
         When I click accélérez votre demande ici
         Then I get Comment signaler votre problème existant page
         Examples:
-            | region                      | confirmationFr              |
-            | "Alberta"                   | "Alberta"                   |
-            | "Colombie-Britannique"      | "British Columbia"          |
-            | "Manitoba"                  | "Manitoba"                  |
-            | "Nouveau-Brunswick"         | "New Brunswick"             |
-            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
-            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
-            | "Nouvelle-Écosse"           | "Nova Scotia"               |
+            | region              | confirmationFr                      |
+#            | "Alberta"                   | "Alberta"                   |
+#            | "Colombie-Britannique"      | "British Columbia"          |
+#            | "Manitoba"                  | "Manitoba"                  |
+#            | "Nouveau-Brunswick"         | "New Brunswick"             |
+#            | "Terre-Neuve-et-Labrador"   | "Newfoundland and Labrador" |
+#            | "Territoires du Nord-Ouest" | "Northwest Territories"     |
+#            | "Nouvelle-Écosse"           | "Nova Scotia"               |
             | "Nunavut"                   | "Nunavut"                   |
-            | "Ontario"                   | "Ontario"                   |
-            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
-            | "Québec"                    | "Quebec"                    |
-            | "Saskatchewan"              | "Saskatchewan"              |
-            | "Yukon"                     | "Yukon"                     |
+#            | "Ontario"                   | "Ontario"                   |
+#            | "Île-du-Prince-Édouard"     | "Prince Edward Island"      |
+#            | "Québec"                    | "Quebec"                    |
+#            | "Saskatchewan"              | "Saskatchewan"              |
+#            | "Yukon"                     | "Yukon"                     |

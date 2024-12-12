@@ -26,8 +26,7 @@ module.exports = defineConfig({
   defaultCommandTimeout: 80000,
   taskTimeout: 80000,
   pageLoadTimeout: 80000,
-  experimentalMemoryManagement: true,
-  numTestsKeptInMemory: 0,
+
   env: {
     url: "https://www.telus.com/en",
     urlF: "https://www.telus.com/fr?linkname=Particuliers&linktype=ge-supernav",
@@ -37,5 +36,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
     specPattern: "cypress/integration/BDD/*.feature",
+    experimentalMemoryManagement: true,
+    numTestsKeptInMemory: 0,
   },
 });
