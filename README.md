@@ -6,6 +6,8 @@ The following project is a test suite used to verify that the expected results c
 
 This test cases are repeated in English and French for all the Canadian Regions so in order to create a random verification, you can turn on and off the regions/languages used for testing in the **search.feature** file by removing the name of the region you don't want to check from the English and French columns of the lists.
 
+[![Watch the video](https://img.youtube.com/vi/vpNckWHa7aI/0.jpg)](https://www.youtube.com/watch?v=vpNckWHa7aI)
+
 ### Search Experience tests
 
 There are 2 kinds of tests cases that are performed for both Personal and Small & Medium Business line of business in English and French.
